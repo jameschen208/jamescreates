@@ -1,12 +1,49 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Jamescreates</title>
+  <title>Creating...</title>
+  <%= favicon_link_tag "icon.ico" %>
+  <!-- mobile -->
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no"/>
+  <!-- fontawesome -->
+  <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+  <!-- fonts -->
+  <link href='//fonts.googleapis.com/css?family=Alegreya+Sans:300' rel='stylesheet' type='text/css'>
+  <link href='//fonts.googleapis.com/css?family=Bad+Script' rel='stylesheet' type='text/css'>
+  <!-- icons -->
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
   <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
   <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
   <%= csrf_meta_tags %>
 </head>
 <body>
+	<div class="navbar-fixed">
+		<nav>
+			<div class="nav-wrapper">
+				<a href="#!" class="brand-logo">Logo</a>
+				<a href="#" data-activates="mobile-nav" class="button-collapse"><i class="material-icons">menu</i></a>
+				<ul class="right hide-on-med-and-down">
+					<li><a href="#">Intro</a></li>
+					<li><a href="#">Portfolio</a></li>
+					<li><a href="#">Skillset</a></li>
+					<li><a href="#">Contact</a></li>
+					<li><a href="#">Blog</a></li>
+				</ul>
+				<ul class="side-nav" id="mobile-nav">
+					<li><a href="#">Intro</a></li>
+					<li><a href="#">Portfolio</a></li>
+					<li><a href="#">Skillset</a></li>
+					<li><a href="#">Contact</a></li>
+					<li><a href="#">Blog</a></li>
+				</ul>
+			</div>
+		</nav>
+	</div>
+	<div class="container">
+		<h1></h1>
+	</div>
+	
 
 <%= yield %>
 

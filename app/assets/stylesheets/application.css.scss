@@ -13,3 +13,8 @@
  *= require_tree .
  *= require_self
  */
+@import 'materialize';
+body{
+	height: 1000px;
+	font-family: 'Alegreya Sans', sans-serif;
+}
