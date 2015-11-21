@@ -14,7 +14,59 @@
  *= require_self
  */
 @import 'materialize';
+$highlight: #6698FF;
+$border: #E9E9E9;
+
+//***************************** OVERARCHING CSS
+
 body{
-	height: 1000px;
+	height: 2000px;
 	font-family: 'Alegreya Sans', sans-serif;
 }
+
+.bad-script{
+	font-style: italic;
+	font-family: 'Bad Script', sans-serif;	
+}
+
+.hr{
+	width: 8em;
+	color: $highlight;
+}
+
+.clearfix:before,
+.clearfix:after {
+	content: " ";
+	display: table;
+}
+
+//***************************** HOME//ABOUT
+
+#my-name{
+	margin-bottom: 0px;
+}
+
+#job-title{
+	margin-top: 0px;
+}
+
+#media-icons{
+	
+}
+
+//***************************** PARALLAX
+.parallax-container{
+	height:250px;
+}
+
+//***************************** PROJECT CARDS
+.card.medium{
+	width: 250px;
+	display: block;
+	float: left;
+}
+
+.cards{
+	margin: 0 auto;
+}
+
