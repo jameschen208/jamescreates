@@ -16,6 +16,8 @@
 @import 'materialize';
 $highlight: #6698FF;
 $border: #E9E9E9;
+$blue: #2196F3;
+$brown: #795548;
 
 //***************************** OVERARCHING CSS
 
@@ -60,4 +62,11 @@ body{
 }
 
 //***************************** PROJECT CARDS
+
+//***************************** SKILL SET
+
+.divide{
+	color: $blue;
+	font-weight: bold;
+}
 

@@ -54,6 +54,7 @@
 		<h5 class="center bold"><span class="blue-text">Hello World.</span> I am an Interactive Designer with a keen eye for user-focused web design. I want to guide users to the information they are looking for, using the most beautiful and efficient path possible.</h5>
 	</div>
 
+
 	<!-------------- PARALLAX -------------->
 	<div class="parallax-container">
 		<h1 class="center">PARALLAX</h1>
@@ -63,15 +64,32 @@
 	<!-------------- PROJECT CARDS -------------->
 	<div class="container">
 		<div class="section">
+			<h1 class="center header">Projects</h1>
 			<div class="row">
-				<div class="col s12 m4">
+				<div class="col s12 m6">
+					<div class="card">
+						<div class="card-image waves-effect waves-block waves-light">
+							<img class="activator" src="project-doughnut.png">
+						</div>
+						<div class="card-content">
+							<span class="card-title activator grey-text text-darken-4">Keyhole Doughnuts<i class="material-icons right">more_vert</i></span>
+							<p><a href="keyholedoughnuts.com" class="brown-text" target="_blank">This is a link</a></p>
+						</div>
+						<div class="card-reveal">
+							<span class="card-title grey-text text-darken-4">NYCDA Overflow<i class="material-icons right">close</i></span>
+							<p>Here is some more information about this product that is only revealed once clicked on.</p>
+						</div>
+					</div>
+				</div>
+
+				<div class="col s12 m6">
 					<div class="card">
 						<div class="card-image waves-effect waves-block waves-light">
 							<img class="activator" src="small.jpg">
 						</div>
 						<div class="card-content">
 							<span class="card-title activator grey-text text-darken-4">Card Title<i class="material-icons right">more_vert</i></span>
-							<p><a href="#">This is a link</a></p>
+							<p><a href="#" class="brown-text" target="_blank">This is a link</a></p>
 						</div>
 						<div class="card-reveal">
 							<span class="card-title grey-text text-darken-4">Card Title<i class="material-icons right">close</i></span>
@@ -80,37 +98,21 @@
 					</div>
 				</div>
 
-				<div class="col s12 m4">
+				<!-- <div class="col s12 m4">
 					<div class="card">
 						<div class="card-image waves-effect waves-block waves-light">
 							<img class="activator" src="small.jpg">
 						</div>
 						<div class="card-content">
 							<span class="card-title activator grey-text text-darken-4">Card Title<i class="material-icons right">more_vert</i></span>
-							<p><a href="#">This is a link</a></p>
+							<p><a href="#" class="brown-text" target="_blank">This is a link</a></p>
 						</div>
 						<div class="card-reveal">
 							<span class="card-title grey-text text-darken-4">Card Title<i class="material-icons right">close</i></span>
 							<p>Here is some more information about this product that is only revealed once clicked on.</p>
 						</div>
 					</div>
-				</div>
-
-				<div class="col s12 m4">
-					<div class="card">
-						<div class="card-image waves-effect waves-block waves-light">
-							<img class="activator" src="small.jpg">
-						</div>
-						<div class="card-content">
-							<span class="card-title activator grey-text text-darken-4">Card Title<i class="material-icons right">more_vert</i></span>
-							<p><a href="#">This is a link</a></p>
-						</div>
-						<div class="card-reveal">
-							<span class="card-title grey-text text-darken-4">Card Title<i class="material-icons right">close</i></span>
-							<p>Here is some more information about this product that is only revealed once clicked on.</p>
-						</div>
-					</div>
-				</div>
+				</div> -->
 			</div>
 
 		</div>
@@ -122,10 +124,52 @@
 		<div class="parallax"><img src="/parallax1.jpeg" alt="Unsplashed background img 1"></div>
 	</div>	
 
-	<!-------------- PROJECT CARDS 2-------------->
+	<!-------------- SKILLS -------------->
 	
+	<div class="container">
+		<div class="section">
+			<h1 class="center header">Skill Set</h1>
+			<div class="row">
+				<div class="col s12 m4">
+					<div class="icon-block">
+						<h2 class="center brown-text"><i class="medium material-icons">chat_bubble_outline</i></h2>
+						<h5 class="center">Front-End Languages</h5>
 
+						<p class="center light">HTML5 <span class="divide">||</span> CSS3 <span class="divide">||</span> SASS <span class="divide">||</span> JavaScript <span class="divide">||</span> jQuery</p>
+						<hr class="hr">
+					</div>
+				</div>
 
+				<div class="col s12 m4">
+					<div class="icon-block">
+						<h2 class="center brown-text"><i class="medium material-icons">dashboard</i></h2>
+						<h5 class="center">Web Frameworks</h5>
+
+						<p class="center light">MaterializeCSS <span class="divide">||</span> Bootstrap <span class="divide">||</span> Parse</p>
+						<hr class="hr">
+					</div>
+				</div>
+
+				<div class="col s12 m4">
+					<div class="icon-block">
+						<h2 class="center brown-text"><i class="medium material-icons">settings</i></h2>
+						<h5 class="center">Back-End Knowledge</h5>
+
+						<p class="center light">Ruby on Rails <span class="divide">||</span> SQLite3 <span class="divide">||</span> PostgreSQL <span class="divide">||</span> ActiveRecord <span class="divide">||</span> Sinatra <span class="divide">||</span> Heroku <span class="divide">||</span> Amazon Web Services</p>
+						<hr class="hr">
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<!-------------- PARALLAX -------------->
+	<div class="parallax-container">
+		<h1 class="center">PARALLAX</h1>
+		<div class="parallax"><img src="/parallax1.jpeg" alt="Unsplashed background img 1"></div>
+	</div>
+
+	<!-------------- CONTACT US -------------->
 	<%= yield %>
 
 </body>
