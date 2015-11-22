@@ -41,7 +41,28 @@ body{
 	content: " ";
 	display: table;
 }
-
+//***************************** ANCHORS
+#portfolio{
+	  display: block;
+	  height: 40px; 
+	  margin-top: -40px;
+	  visibility: hidden;
+	  z-index: -2;
+}
+#skill-set{
+	  display: block;
+	  height: 40px; 
+	  margin-top: -40px;
+	  visibility: hidden;
+	  z-index: -2;
+}
+#contact{
+	  display: block;
+	  height: 100px; 
+	  margin-top: -100px;
+	  visibility: hidden;
+	  z-index: -2;
+}
 //***************************** HOME//ABOUT
 
 #my-name{
@@ -70,3 +91,7 @@ body{
 	font-weight: bold;
 }
 
+//***************************** CONTACT
+.contact{
+	margin-bottom: 0px;
+}
